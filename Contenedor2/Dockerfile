@@ -7,7 +7,7 @@ LABEL autors="Egoitz Larrea" version="1.0" description="Ubuntu+proftp+tls" creat
 RUN apt-get update && apt-get install openssl
 
 #Instalamos nano
-RUN apt-get install nano
+#RUN apt-get install nano
 
 #Instalamos ftp
 RUN apt-get install -y proftpd && apt-get install  -y  proftpd-mod-crypto
