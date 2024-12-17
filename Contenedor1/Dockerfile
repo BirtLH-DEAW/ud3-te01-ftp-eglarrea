@@ -7,7 +7,7 @@ LABEL autors="Egoitz Larrea" version="1.0" description="Ubuntu+proftp" creationD
 RUN apt-get update
 #Instalamos nano
 
-RUN apt-get install nano
+#RUN apt-get install nano
 
 #Instalamos ftp
 RUN apt-get install -y proftpd
